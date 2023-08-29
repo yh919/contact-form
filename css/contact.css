@@ -1,0 +1,53 @@
+/* start Form */
+
+body {
+    background-color: #f1f1f1be;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.contact-form .form-group {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.contact-form input {
+    padding-left: 32px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 5px;
+}
+
+.contact-form textarea {
+    height: 180px !important;
+}
+
+.contact-form input:not([type='submit']) + i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -32px;
+    left: 10px;
+    color: #999;
+}
+
+.contact-form .asterisx {
+    float: right;
+    height: 0;
+    font-size: 22px;
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    display: none;
+}
+
+.contact-form .custom-alert {
+    padding: 5px 10px;
+    display: none;
+}
